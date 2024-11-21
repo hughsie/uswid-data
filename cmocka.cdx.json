@@ -1,0 +1,52 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "authors": [
+      {
+        "name": "@VCS_SBOM_AUTHORS@"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:gitlab/cmocka/cmocka@@VCS_TAG@",
+      "cpe": "cpe:2.3:a:cmocka:cmocka:@VCS_TAG@:*:*:*:*:*:*:*",
+      "name": "cmocka",
+      "version": "@VCS_VERSION@",
+      "description": "A unit testing framework for C with support for mock objects",
+      "authors": [
+        {
+          "name": "@VCS_AUTHORS@",
+          "url": "https://gitlab.com/cmocka/cmocka/-/raw/master/AUTHORS"
+        }
+      ],
+      "supplier": {
+        "name": "cmocka developers"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cmocka.org/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitlab.com/cmocka/cmocka.git"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tianocore/edk2-cmocka.git"
+        }
+      ]
+    }
+  ]
+}
