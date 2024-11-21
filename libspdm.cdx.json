@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "authors": [
+      {
+        "name": "@VCS_SBOM_AUTHORS@"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:github/DMTF/libspdm@@VCS_TAG@",
+      "cpe": "cpe:2.3:a:DMTF:libspdm:@VCS_TAG@:*:*:*:*:*:*:*",
+      "name": "libspdm",
+      "version": "@VCS_VERSION@",
+      "description": "Sample implementation of DMTF SPDM",
+      "supplier": {
+        "name": "libspdm developers"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/DMTF/libspdm"
+        }
+      ]
+    }
+  ]
+}
