@@ -1,0 +1,47 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "authors": [
+      {
+        "name": "@VCS_SBOM_AUTHORS@"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:github/Mbed-TLS/mbedtls@@VCS_TAG@",
+      "cpe": "cpe:2.3:a:Mbed-TLS:mbedtls:@VCS_TAG@:*:*:*:*:*:*:*",
+      "name": "mbedtls",
+      "version": "@VCS_VERSION@",
+      "description": "Implements cryptographic primitives, X.509 certificate manipulation and SSL/TLS and DTLS protocols",
+      "supplier": {
+        "name": "The Mbed TLS Contributors"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Mbed-TLS/mbedtls"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/ARMmbed/mbedtls"
+        }
+      ]
+    }
+  ]
+}
