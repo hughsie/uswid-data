@@ -1,0 +1,42 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "authors": [
+      {
+        "name": "@VCS_SBOM_AUTHORS@"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:hostapd/wpa_supplicant@@VCS_TAG@",
+      "cpe": "cpe:2.3:a:hostapd:wpa_supplicant:@VCS_TAG@:*:*:*:*:*:*:*",
+      "name": "wpa_supplicant",
+      "version": "@VCS_VERSION@",
+      "description": "The IEEE 802.1X/WPA component, implementing key negotiation with an authenticator",
+      "supplier": {
+        "name": "wpa_supplicant developers"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://hostap.epitest.fi/wpa_supplicant/"
+        },
+        {
+          "type": "vcs",
+          "url": "git://w1.fi/srv/git/hostap.git"
+        }
+      ]
+    }
+  ]
+}
