@@ -13,7 +13,7 @@
     {
       "type": "library",
       "bom-ref": "pkg:github/Mbed-TLS/mbedtls@@VCS_TAG@",
-      "cpe": "cpe:2.3:a:Mbed-TLS:mbedtls:@VCS_TAG@:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:mbed:mbedtls:@VCS_TAG@:*:*:*:*:*:*:*",
       "name": "mbedtls",
       "version": "@VCS_VERSION@",
       "description": "Implements cryptographic primitives, X.509 certificate manipulation and SSL/TLS and DTLS protocols",
