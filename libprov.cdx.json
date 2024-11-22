@@ -32,7 +32,7 @@
       "externalReferences": [
         {
           "type": "vcs",
-          "url": "https://github.com/hughsie/libprov"
+          "url": "https://github.com/provider-corner/libprov"
         }
       ]
     }
